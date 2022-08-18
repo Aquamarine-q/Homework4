@@ -15,9 +15,9 @@ class Clock @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
     private var radius = 0.0f
-    private var hourHandLength = 150f
+    private var hourHandLength = 95f
     private var minuteHandLength = 125f
-    private var secondHandLength = 95f
+    private var secondHandLength = 150f
 
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
