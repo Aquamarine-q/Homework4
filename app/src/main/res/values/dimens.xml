@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hour_hand_width">7dp</dimen>
+    <dimen name="minute_hand_width">5dp</dimen>
+    <dimen name="second_hand_width">3dp</dimen>
+</resources>

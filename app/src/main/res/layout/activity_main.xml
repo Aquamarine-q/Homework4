@@ -12,6 +12,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:hourHandColor="@color/purple_200"
+        app:hourHandWidth="@dimen/hour_hand_width"
+        app:minuteHandColor="@color/purple_500"
+        app:minuteHandWidth="@dimen/minute_hand_width"
+        app:secondHandColor="@color/purple_700"
+        app:secondHandWidth="@dimen/second_hand_width" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

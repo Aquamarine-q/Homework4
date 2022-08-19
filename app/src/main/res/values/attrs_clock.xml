@@ -1,8 +1,10 @@
 <resources>
     <declare-styleable name="Clock">
-        <attr name="exampleString" format="string" />
-        <attr name="exampleDimension" format="dimension" />
-        <attr name="exampleColor" format="color" />
-        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="hourHandWidth" format="dimension" />
+        <attr name="hourHandColor" format="color" />
+        <attr name="minuteHandWidth" format="dimension" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="secondHandWidth" format="dimension" />
+        <attr name="secondHandColor" format="color" />
     </declare-styleable>
 </resources>
